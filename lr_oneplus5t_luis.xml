@@ -13,7 +13,7 @@
  <!--Repositories to fetch-->
  <!--Upstream-->
  <!--Custom-->
- <project name="FraEgg/lr_android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" revision="oc" />
+ <project name="FraEgg/lr_android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" revision="oc-luis" />
  <project name="FraEgg/lr_android_device_oneplus_dumpling" path="device/oneplus/oneplus3" revision="oc" />
  <project name="FraEgg/lr_proprietary_vendor_oneplus" path="vendor/oneplus" revision="oc" />
  <project name="FraEgg/lr_android_vendor_liquid" path="vendor/liquid" revision="oc" />
