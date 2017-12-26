@@ -7,7 +7,7 @@
  <!-- <project path="patcher" name="FraEgg/patcher_sultanxda" revision="cm-14.1-oneplus3-luis" /> -->
 
  <!--Repositories to replace-->
- <remove-project name="android_vendor_liquid" /> -->
+ <remove-project name="android_vendor_liquid" />
 
  <!--Repositories to fetch-->
  <!--Upstream-->
