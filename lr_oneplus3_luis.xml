@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
- <remote  name="luis" fetch="https://github.com/FraEgg" revision="oc-luis" />
-
+  
+  <remote fetch="https://github.com/FraEgg" name="luis" revision="oc-luis" />
+ 
  <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
  <!-- <project path="patcher" name="FraEgg/patcher_sultanxda" revision="cm-14.1-oneplus3-luis" /> -->
+ 
+ <!--Remove -->
+  <remove-project name="android_vendor_liquid" />
+ 
+ <!-- LiquidRemix -->
+  <project name="LiquidRemix/android_device_oppo_common" path="device/oppo/common" remote="github" revision="oc" />
+  <project name="LiquidRemix/android_device_qcom_common" path="device/qcom/common" remote="github" revision="oc" />
 
- <!--Repositories to replace-->
- <remove-project name="android_vendor_liquid" />
-
- <!--Repositories to fetch-->
- <!--Upstream-->
- <!--Custom-->
- <project name="akhilnarang/kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" revision="oreo" remote="github" />
- <project name="ZerNico/device_oneplus_oneplus3" path="device/oneplus/dumpling" revision="8.0" remote="github" />
- <project name="akhilnarang/proprietary_vendor_oneplus" path="vendor/oneplus" revision="oreo" remote="github" />
- <project name="lr_android_vendor_liquid" path="vendor/liquid"  remote="luis" />
- <project path="packages/apps/luis" name="android_packages_apps_luis" revision="master"  remote="luis" />
-
+ <!--Custom -->
+  <project name="FraEgg/lr_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="oreo" />
+  <project name="FraEgg/lr_device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="github" revision="oreo" />
+  <!-- <project name="lr_android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="luis" /> -->
+  <project name="lr_proprietary_vendor_oneplus" path="vendor/oneplus" remote="luis" revision="oc" />
+  <project name="lr_android_vendor_liquid" path="vendor/liquid" remote="luis" />
+ 
  <!--WireGuard-->
  <!--
- <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
- <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
+  <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
+  <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
  -->
+ 
 </manifest>
