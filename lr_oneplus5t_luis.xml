@@ -19,7 +19,6 @@
   <project name="lr_android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="luis" />
   <project name="lr_proprietary_vendor_oneplus" path="vendor/oneplus" remote="luis" />
   <project name="lr_android_vendor_liquid" path="vendor/liquid" remote="luis" />
-  <project name="lr_android_vendor_liquid" path="vendor/liquid" remote="luis" />
   <!-- <project name="packages_apps_OTA" path="packages/apps/liquidOTA" remote="luis" /> -->
   
  <!--WireGuard-->
