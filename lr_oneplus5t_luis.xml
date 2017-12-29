@@ -18,7 +18,7 @@
   <project name="lr_android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="luis" />
   <project name="lr_android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="luis" />
   <project name="lr_android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="luis" />
-  <project name="lr_proprietary_vendor_oneplus" path="vendor/oneplus" remote="luis" revision="oc" />
+  <project name="lr_proprietary_vendor_oneplus" path="vendor/oneplus" remote="luis" />
   <project name="lr_android_vendor_liquid" path="vendor/liquid" remote="luis" />
  
  <!--WireGuard-->
