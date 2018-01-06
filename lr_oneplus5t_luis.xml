@@ -14,7 +14,7 @@
  <!-- <project name="LiquidRemix/android_device_qcom_common" path="device/qcom/common" remote="github" revision="oc" /> -->
 
  <!--Custom -->
-  <project name="lr_android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="luis" />
+  <project name="android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="luis" />
   
   <project name="lr_android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="luis" />
   <project name="lr_android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="luis" />
